@@ -10,7 +10,7 @@ Author URI: http://kaiarmstrong.com
 
 if ( @include_once('respond-js-xdomain-base.php') ) {
 	add_action('wp_head','toz_rjsxd_header');
-	add_action('wp_footer','toz_rjsxd_footer');
+	add_action('wp_footer','toz_rjsxd_footer', 999);
 }
 
 /********** WordPress Administrative ********/
