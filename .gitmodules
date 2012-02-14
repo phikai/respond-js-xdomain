@@ -1,0 +1,3 @@
+[submodule "Respond"]
+	path = Respond
+	url = git://github.com/scottjehl/Respond.git
