@@ -10,7 +10,6 @@ function toz_rjsxd_header(){ ?>
 
 function toz_rjsxd_footer(){ ?>
 	<script type="text/javascript" src="<?php echo plugin_dir_url(__FILE__); ?>Respond/respond.min.js"></script>
-	<link href="<?php echo str_replace( home_url(), '', plugin_dir_url(__FILE__)); ?>Respond/cross-domain/respond.proxy.gif" id="respond-redirect" rel="respond-redirect" />
 	<script type="text/javascript" src="<?php echo str_replace( home_url(), '', plugin_dir_url(__FILE__)); ?>Respond/cross-domain/respond.proxy.js"></script>
 <?php }
 ?>
